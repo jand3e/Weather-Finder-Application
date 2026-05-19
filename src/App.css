@@ -1,0 +1,57 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.weather-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.weather-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.weather-form button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.weather-form button:hover {
+  background: #0056b3;
+}
+
+.status,
+.error {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.error {
+  color: #c0392b;
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.weather-card h2 {
+  margin: 0 0 10px;
+}
